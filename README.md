@@ -1,1 +1,0 @@
-# shopkart-app
