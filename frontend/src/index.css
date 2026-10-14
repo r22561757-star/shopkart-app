@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-main: #F8F4EC;
+  --bg-card: #FFFDF8;
+  --beige-primary: #E8DCC8;
+  --beige-secondary: #D8C5AA;
+  --text-primary: #342A22;
+  --text-secondary: #76685A;
+  --btn-primary: #80664A;
+  --btn-hover: #695239;
+  --border-color: #E5D9C8;
+}
+
+body {
+  margin: 0;
+  background-color: #F8F4EC;
+  color: #342A22;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8F4EC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D8C5AA;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #80664A;
+}
+
+/* Base interactive transitions */
+button, a {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}

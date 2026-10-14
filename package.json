@@ -1,0 +1,15 @@
+{
+  "name": "shopkart-application",
+  "version": "1.0.0",
+  "description": "ShopKart Full-Stack E-Commerce Application (Labs 01-06)",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "seed": "npm --prefix backend run seed",
+    "test:backend": "npm --prefix backend test",
+    "backend": "npm --prefix backend start",
+    "frontend": "npm --prefix frontend run dev"
+  },
+  "keywords": ["ecommerce", "mern", "shopkart", "razorpay"],
+  "author": "ShopKart Team",
+  "license": "ISC"
+}
